@@ -1,8 +1,10 @@
 package org.uiowa.cs2820.engine;
 
+import org.uiowa.cs2820.engine.Database;
+import org.uiowa.cs2820.engine.Field;
 import java.util.ArrayList;
 
-public class FieldSearch {
+public class FieldSearch extends Field{
 
 
 	public FieldSearch() {
@@ -11,7 +13,7 @@ public class FieldSearch {
 
 	public void FindEquals() {
 		//communicate with the Field class, to getFieldName(),getFieldValue()
-		
+		Database Y = new Database()
 		//use the FieldName and Value to search Database
 		
 	}
